@@ -3,9 +3,7 @@ if(typeof window.jenkinsDash === 'undefined') window.jenkinsDash = {};
 jenkinsDash.settings = [
   {
     name: 'ci',
-    host: 'http://my.jenkins.host.com',
-    user: 'username',
-    pass: 'password',
+    host: 'https://ci-app.dev.bbc.co.uk',
     view: 'All'
   }
 ];
